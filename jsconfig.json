@@ -7,7 +7,9 @@
       "@components/*": ["./components/*"],
       "@images/*": ["./assets/images/*"],
       "@fonts/*": ["./assets/fonts/*"],
-      "@apis/*": ["./apis/*"]
+      "@apis/*": ["./apis/*"],
+      "@hooks/*": ["./apis/*"],
+      "@providers/*": ["./apis/*"]
     }
   },
   "exclude": ["node_modules", "**/node_modules/*", "build"]
