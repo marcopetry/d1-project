@@ -2,11 +2,12 @@ import { D1Box } from '@components/Box/Box'
 import { D1Flex } from '@components/Flex/Flex'
 import { D1Icon } from '@components/Icon/Icon'
 import styled from 'styled-components'
+import { theme } from 'utils/theme'
 
 export const BoxStyled = styled(D1Box)`
   height: 35px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border: 1px solid #cccfde;
+  background: ${theme('colors.white')};
+  border: 1px solid ${theme('colors.mediumGrey')};
   border-radius: 5px;
   opacity: 1;
   display: flex;

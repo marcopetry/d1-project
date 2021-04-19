@@ -2,6 +2,7 @@ import { memo } from 'react'
 import imgLogo from '../../assets/images/logotipo.png'
 
 import styled from 'styled-components'
+import { theme } from 'utils/theme'
 
 const SideBar = styled.div`
   top: 0px;
@@ -9,7 +10,7 @@ const SideBar = styled.div`
   width: 71px;
   height: 100%;
   position: fixed;
-  background: #1a1731;
+  background: ${theme('colors.almostBlack')};
   opacity: 1;
   display: flex;
   flex-direction: column;

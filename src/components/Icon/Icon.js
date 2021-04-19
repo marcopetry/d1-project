@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 import { layout } from 'styled-system'
-import { icons } from '../../assets/icons'
+import { theme } from 'utils/theme'
+import { icons } from 'assets/icons'
 
 const SvgStyled = styled.svg`
-  fill: ${(props) => props.color || 'white'};
+  fill: ${(props) => theme(`colors.${props.color || 'white'}`)};
   width: 30px;
   height: 30px;
   &:hover {
-    fill: ${(props) => props.colorHover || '#117EFF'};
+    fill: ${(props) => theme(`colors.${props.colorHover || 'blueDark'}`)};
     cursor: pointer;
   }
   ${layout}

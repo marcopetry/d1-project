@@ -1,18 +1,19 @@
+import { theme } from 'utils/theme'
 import styled from 'styled-components'
 
 export const D1Button = styled.button`
   width: 200px;
   height: 40px;
-  background: #117eff;
+  background: ${theme('colors.blueDark')};
   border-radius: 5px;
-  border-color: #117eff;
+  border-color: ${theme('colors.blueDark')};
   color: white;
   font-weight: bold;
   font-size: 16px;
 
   &:hover {
-    background-image: linear-gradient(to right, #00e1ff, #3fa8f4);
-    border-color: #3fa8f4;
+    background-image: linear-gradient(to right, ${theme('colors.blueLight')}, ${theme('colors.blueMedium')});
+    border-color: ${theme('colors.blueMedium')};
     cursor: pointer;
   }
 `
