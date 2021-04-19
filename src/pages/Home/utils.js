@@ -2,27 +2,27 @@
 // Aqui tá pegando pelos index dos dados que retornam, correto é retornar uma chave ex: TODOS
 const defItem = [
   {
-    color: '#D190DD',
+    color: 'error',
     icon: 'table',
   },
   {
-    color: '#C1CA4F',
+    color: 'warning',
     icon: 'paper-plane',
   },
   {
-    color: '#35C667',
+    color: 'success',
     icon: 'play-circle',
   },
   {
-    color: '#3FA8F4',
+    color: 'info',
     icon: 'pen',
   },
   {
-    color: '#EBBD3E',
+    color: 'orange',
     icon: 'bed',
   },
   {
-    color: '#9FABD5',
+    color: 'darkGrey',
     icon: 'check',
   },
 ]
