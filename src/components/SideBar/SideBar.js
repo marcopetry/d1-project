@@ -7,8 +7,9 @@ const SideBar = styled.div`
   top: 0px;
   left: 0px;
   width: 71px;
-  height: 100vh;
-  background: #1a1731 0% 0% no-repeat padding-box;
+  height: 100%;
+  position: fixed;
+  background: #1a1731 0% 0% no-repeat;
   opacity: 1;
   display: flex;
   flex-direction: column;
